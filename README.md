@@ -1,68 +1,69 @@
-# MediSlot - Doctor Appointment System
+# MediSlot – Doctor Appointment System
 
-## Student Details
+## Project Information
 
+- **Project Name:** MediSlot
 - **Student Name:** Saroj Vishwakarma
-- **Roll Number / UID:** [Enter your roll number]
-- **Assigned Problem Statement Number:** [Enter your problem statement number]
-- **Live Deployment Link:** [Paste your deployment link]
+- **Roll Number:** 74
+- **Assignment:** P4 — Doctor Appointment
+- **Live Demo:** [https://medi-slot-three.vercel.app](https://medi-slot-three.vercel.app)
 
 ## About the Project
 
-MediSlot is a Doctor Appointment System developed using React. It allows users to view doctors, search for doctors, filter them by specialization, check their details and book appointments.
+MediSlot is a simple Doctor Appointment System built using React and Vite. It allows users to explore doctors, check their availability, view doctor details, book appointments, and cancel appointments.
+
+The project uses a local dataset to manage doctor information and React state to handle appointment booking.
 
 ## Features
 
-- View all available doctors.
+- View the total number of doctors.
+- Check doctors available today.
 - Search doctors by name.
 - Filter doctors by specialization.
-- View doctor details.
-- Check doctor availability.
-- Book appointments.
-- View booked appointments.
-- See the updated appointment count.
+- View individual doctor details.
+- Check hospital, experience, consultation fee, rating, and available slots.
+- Book appointments with available doctors.
+- Cancel booked appointments.
+- View all booked appointments.
+- Calculate the total consultation fee.
+- Display doctor availability and experience badges.
 
 ## Technologies Used
 
 - React.js
 - Vite
 - JavaScript
-- React Router
 - HTML
 - CSS
+- React Router
 
-## React Concepts Used
+## Concepts Implemented
 
-- Functional Components and JSX
-- Props and Variables
+- Functional Components
+- JSX
+- Props
 - useState Hook
-- Controlled Inputs
-- map(), filter() and find()
+- React Router
+- useParams
+- map(), filter(), find(), reduce()
 - Conditional Rendering
-- BrowserRouter, Routes and Route
-- Link
-- Dynamic Routes and useParams()
+- Controlled Inputs
 - Reusable Components
-- State Management using Props
 
-## Project Folder Structure
+## Project Structure
 
 ```text
 src/
-│
 ├── components/
 │   ├── Navbar.jsx
 │   └── DoctorCard.jsx
-│
 ├── data/
 │   └── doctors.js
-│
 ├── pages/
 │   ├── Home.jsx
 │   ├── Doctors.jsx
 │   ├── DoctorDetails.jsx
-│   └── Booked.jsx
-│
+│   └── Appointments.jsx
 ├── App.jsx
 ├── App.css
 └── main.jsx
@@ -73,16 +74,16 @@ src/
 1. Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-2. Open the project folder:
+2. Navigate to the project folder:
 
 ```bash
 cd YOUR_PROJECT_FOLDER
 ```
 
-3. Install the dependencies:
+3. Install dependencies:
 
 ```bash
 npm install
@@ -94,17 +95,12 @@ npm install
 npm run dev
 ```
 
-5. Open the local URL shown in the terminal.
+## Live Deployment
 
-## Deployment
+The project is deployed using Vercel.
 
-The project is deployed on Vercel.
+**Live Link:** [https://medi-slot-three.vercel.app](https://medi-slot-three.vercel.app)
 
-**Live Link:** [Paste your Vercel deployment link here]
+---
 
-## Note
-
-- The project uses the provided local doctor dataset.
-- No external APIs or fetch requests are used.
-- Appointment booking is managed using React useState.
-- Booking information remains available while navigating between pages but resets when the browser is refreshed.# MediSlot
+*This project was developed as part of an academic assignment to practice React fundamentals and frontend development.*
